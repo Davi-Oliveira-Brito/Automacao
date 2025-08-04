@@ -1,6 +1,3 @@
-# Executar no terminal em: C:\Users\dobrito\PastaRename\automacao (É ONDE ESTÁ O ARQUIVO rename.py NA MINHA MAQUINA - DAVI)
-# Comando para execultar: python rename.py
-
 import os
 import xml.etree.ElementTree as ET
 import re
@@ -15,6 +12,7 @@ ano = data_atual.year
 # Caminho da pasta com os arquivos (ajustável)
 ##pasta = f"T:/Arquivo XML/ANO {ano}/{mes}-{ano}/Autorizada/Recebidas/Ciente"
 ##pasta = f"T:/Arquivo XML/ANO 2025/06-2025/Autorizada/Recebidas/Ciente"
+pasta = f"caminho da pasta"
 
 # Remove caracteres inválidos e acentos
 def limpar_nome(texto):
